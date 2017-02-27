@@ -1,0 +1,38 @@
+{
+  "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "node": true,
+      "mocha": true,
+    },
+    "settings": {
+      "ecmascript": 6,
+      "jsx": true
+    },
+    "plugins": [
+      "react"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "semi": 2,
+      "strict": 0,
+      "quotes": 0,
+      "no-unused-vars": 2,
+      "camelcase": 0,
+      "no-underscore-dangle": 0,
+      "no-trailing-spaces": 2,
+      "indent": [2, 2],
+      "jsx-quotes": [2, "prefer-single"],
+      "react/jsx-indent": [2, 2],
+      "react/jsx-indent-props": [2, 2],
+      "react/jsx-equals-spacing": [2, "never"],
+      "react/jsx-space-before-closing": 2,
+      "react/jsx-tag-spacing": 2
+    }
+}
